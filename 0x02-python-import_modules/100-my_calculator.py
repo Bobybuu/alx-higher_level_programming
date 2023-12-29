@@ -16,16 +16,4 @@ if __name__ == "__main__":
 
     a = int(sys.argv[1])
     b = int(sys.argv[3])
-    print("{} {} {} = {}".format(a, sys.argv[2], b, ops[sys.argv[2]](a, b)))
-
-
-
-
-____________________________________________________________
-
-101-easy_print.py 
-
-#!/usr/bin/python3
-__import__("os").write(1, "#pythoniscool\n".encode("UTF-8"))
-
-
+    print("{} {} {} = {}".format(a, sys.argv[2], b, ops[sys.argv[2]](a,b)))
